@@ -6,7 +6,6 @@
 
 class Solution(object):
     def addTwoNumbers(self, l1, l2):
-        # Dummy head to simplify list construction
         dummy = ListNode(0)
         curr = dummy
         carry = 0
